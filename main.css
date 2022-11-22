@@ -24,7 +24,7 @@ html, body, main {
 }
 
 .first p {
-	color: #fff;
+	color: #89ff00;
 }
 
 .tourism {
@@ -32,12 +32,14 @@ html, body, main {
 	text-align: center;
 	padding-top: 80px;
 	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .text-container {
 	width: 40%;
 	margin-top: 15%;
 	margin-left: 15%;
+	font-family: 'Roboto', sans-serif;
 }
 
 .first-line {
@@ -75,7 +77,6 @@ html, body, main {
 
 }
 
-
 .img-container {
 	width: 100%;
 	display: flex;
@@ -87,6 +88,7 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
 }
 
 .wrapper {
@@ -107,6 +109,7 @@ img {
 	align-items: center;
 	margin-bottom: 20px;
 	margin-top: 100px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .gallery-p {
@@ -119,5 +122,37 @@ img {
 	font-weight: bold;
 	letter-spacing: 2px;
 	line-height: 1;
-	margin-right:265px;
+}
+
+/*12*/
+
+.last-conatiner {
+	margin-top: 100px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/img3.jpg);
+	background-position: center;
+	background-size: cover;
+	flex-direction: column;
+	padding: 0 25%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.last-header {
+	color: #89ff00;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid #89ff00;
+	margin-bottom: 40px;
+}
+
+.last-p {
+	color: white;
+	color: #89ff00;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
 }

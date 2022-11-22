@@ -1,0 +1,25 @@
+/* тег {
+	свойство: значение;
+} */
+
+body {
+	background-color: #c5d9c6;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+div{
+	width: 60%;
+	margin: auto;
+}
+
+img {
+    max-width:100%;
+    height: auto;
+    display: block;
+    margin: auto; 
+}
